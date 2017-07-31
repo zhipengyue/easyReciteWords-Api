@@ -1,0 +1,11 @@
+module.exports={
+    currentEnviroment:'local',
+    mysqlDataLink:{
+        local:{
+            host:'127.0.0.1',
+            user:'root',
+            password:'root',
+            database:'EnglishWords'
+        }
+    }
+}
