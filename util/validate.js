@@ -1,7 +1,7 @@
 module.exports={
     validateParams(params,array){
         for(let i in array){
-            if(params[array[i]]==''||params[array[i]]==undefined){
+            if(params[array[i]]===''||params[array[i]]===undefined){
                 return false
             }
         }
